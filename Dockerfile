@@ -7,8 +7,8 @@ WORKDIR /app
 # Copie o artefato gerado pelo Maven para o container
 COPY target/viral-clips-1.0-SNAPSHOT.jar app.jar
 
-# Exponha a porta 8081 (ou a porta que sua aplicação usa)
-EXPOSE 8081
+# Exponha a porta 8080 (ou a porta que sua aplicação usa)
+EXPOSE 8080
 
 # Comando para executar a aplicação
 ENTRYPOINT ["java", "-jar", "app.jar"]
