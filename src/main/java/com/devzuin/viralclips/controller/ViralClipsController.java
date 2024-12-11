@@ -13,6 +13,6 @@ public class ViralClipsController {
 
     @GetMapping("/response")
     public Map<String, String> getResponse() {
-        return Collections.singletonMap("response", "rodrigo muito gay");
+        return Collections.singletonMap("response", "fuentes dybala, chefinho pika");
     }
 }
